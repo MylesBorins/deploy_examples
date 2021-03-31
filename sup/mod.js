@@ -3,7 +3,7 @@ function handleRequest(request) {
 
   if (pathname.startsWith("/html")) {
     const html = `<html>
-      <p><b>Message:</b> Sup.</p>
+      <p><b>Message:</b> Sup y'all.</p>
       </html>`;
 
     return new Response(html, {
